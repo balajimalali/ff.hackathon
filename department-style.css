@@ -1,0 +1,51 @@
+header{
+    display: block;
+    display: flexbox;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom right,#edf2fa,#a36999);
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+#logo{
+    margin: 1rem;
+    mix-blend-mode: multiply;
+}
+
+
+.body{
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.image{
+    width: 50%;
+    float: right;
+    mix-blend-mode: multiply;
+}
+
+.card{
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+.faculty-cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
